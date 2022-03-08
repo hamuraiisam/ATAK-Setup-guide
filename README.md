@@ -3,11 +3,14 @@
 
 A quick reference guide for the commands I use to setup my ATAK servers, all the commands are run on a clean image of Ubuntu 20.4
 
+---
+
 ### Upgrade Linux
 
 Before doing any other installs it is neccessary to update the systems files and programs to the latest versions.
 
     sudo apt update && sudo apt upgrade
+---
 
 ### Install FTS (Automated)
 
@@ -23,6 +26,7 @@ These commands need to be ran after the FTS install script to fix the issues wit
 Edit all the neccessary config files for FTS and then reboot Linux to launch FTS
 
     sudo reboot
+---
 
 ### Traccar server
 
@@ -78,8 +82,13 @@ Reboot Linux
 
 Now you can go to the admin panel at http://YOURIP:8082 and log in with user:admin pass:admin, you need to add a devices identifier in the admin panel for it to appear. In the traccar client you are using the same identifier which you set up in the admin panel and the same ip and port. Make sure to set the location accuracy to high since I have had awful results with the medium setting.
 
+---
+
 ### TAKCAR Setup
 
 I am using [takcar](https://github.com/Cale-Torino/Takcar "takcar") to convert the traccar data into ATAK using a php script which feeds into the FTS REST API. I am using an older version since the latest one does not work for me with the latest FTS - the only limitation of 1.0.0.4 is that  the name of the device does not show up but is a random number.
 
+#To be continued
+
+---
 
