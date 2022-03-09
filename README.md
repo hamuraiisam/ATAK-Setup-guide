@@ -24,7 +24,11 @@ These commands need to be ran after the FTS install script to fix the issues wit
     pip3 install itsdangerous==2.0.1
     pip3 install markupsafe==2.0.1
 
-Edit all the neccessary config files for FTS and then reboot Linux to launch FTS
+Run this to generate the config files and then use Ctrl + C to exit
+
+    sudo python3 -m FreeTAKServer.controllers.services.FTS 
+
+Edit all the necessary config files for FTS (/opt/FTSconfig.yaml)  and FTS-UI (/usr/local/lib/python3.8/dist-packages/FreeTAKServer-UI/config.py)  and then reboot Linux to launch FTS
 
     sudo reboot
 ---
@@ -93,20 +97,4 @@ I am using [takcar](https://github.com/Cale-Torino/Takcar "takcar") to convert t
 
 ---
 
-### Self hosted Zerotier controller ( With UI ! )
 
-Get Curl
-
-    sudo apt install curl
-
-Get Zerotier
-
-    curl -s https://install.zerotier.com | sudo bash
-
-
-
-install [Docker](https://docs.docker.com/get-docker) and [Docker Compose](https://docs.docker.com/compose/install)
-
-
-
-https://github.com/dec0dOS/zero-ui
