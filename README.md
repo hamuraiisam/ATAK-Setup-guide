@@ -101,9 +101,34 @@ Now you can go to the admin panel at http://YOURIP:8082 and log in with user:adm
 
 I am using [takcar](https://github.com/Cale-Torino/Takcar "takcar") to convert the traccar data into ATAK using a php script which feeds into the FTS REST API. I am using an older version since the latest one does not work for me with the latest FTS - the only limitation of 1.0.0.4 is that  the name of the device does not show up but is a random number.
 
-First, we need to set up a XAMPP server
+First, we need to set up a XAMPP server ( Say no to developer files option)
 
+    wget https://www.apachefriends.org/xampp-files/7.4.12/xampp-linux-x64-7.4.12-0-installer.run
+    chmod a+x xampp-linux-x64-7.4.12-0-installer.run
+    sudo ./xampp-linux-x64-7.4.12-0-installer.run
 
+Now lets set up XAMPP to start on Linux boot using crontab
+
+    crontab -e
+    
+Add the following line at the bottom and then exit ( Ctrl + X )
+
+    @reboot nohup sudo /opt/lampp/lampp start &
+
+Navigate to the htdocs directory
+
+    cd /opt/lampp/htdocs
+    
+Download and uznip the takcar zip file
+
+    wget https://github.com/Cale-Torino/Takcar/releases/download/V1.0.0.4/Takcar_Version_1.0.0.4.zip && unzip Takcar*.zip
+    mv -f /opt/lampp/htdocs/Takcar_Version*/takcar_scripts /opt/lampp/htdocs
+    rm -f -d /opt/lampp/htdocs/Takcar_Version*
+    
+ Now you need to edit the config file according to [Takcars instructions](https://github.com/Cale-Torino/Takcar) and then you can go to http://YOURIP/takcar_scripts/ to test it out.
+ 
+    sudo nano /opt/lampp/htdocs/takcar_scripts/config.php
+   
 ---
 
 
