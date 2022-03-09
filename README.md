@@ -1,4 +1,5 @@
 
+
 # ATAK-SERVER setup guide
 
 A quick reference guide for the commands I use to setup my ATAK servers, all the commands are run on a clean image of Ubuntu 20.4
@@ -92,3 +93,20 @@ I am using [takcar](https://github.com/Cale-Torino/Takcar "takcar") to convert t
 
 ---
 
+### Self hosted Zerotier controller ( With UI ! )
+
+Get Curl
+
+    sudo apt install curl
+
+Get Zerotier
+
+    curl -s https://install.zerotier.com | sudo bash
+
+
+
+install [Docker](https://docs.docker.com/get-docker) and [Docker Compose](https://docs.docker.com/compose/install)
+
+
+
+https://github.com/dec0dOS/zero-ui
