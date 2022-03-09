@@ -34,7 +34,7 @@ Run this to generate the config files and then use Ctrl + C (twice) to exit
 
     sudo python3 -m FreeTAKServer.controllers.services.FTS 
 
-Edit all the necessary config files for FTS (/opt/FTSconfig.yaml)  and FTS-UI (/usr/local/lib/python3.8/dist-packages/FreeTAKServer-UI/config.py)  and then reboot Linux to launch FTS
+Edit all the necessary config files for FTS (/opt/FTSconfig.yaml) and FTS-UI (/usr/local/lib/python3.8/dist-packages/FreeTAKServer-UI/config.py) by replacing all the 127.0.0.1 and 0.0.0.0 IPs with you real IP and then reboot Linux to launch FTS
 
     sudo reboot
 ---
@@ -101,7 +101,8 @@ Now you can go to the admin panel at http://YOURIP:8082 and log in with user:adm
 
 I am using [takcar](https://github.com/Cale-Torino/Takcar "takcar") to convert the traccar data into ATAK using a php script which feeds into the FTS REST API. I am using an older version since the latest one does not work for me with the latest FTS - the only limitation of 1.0.0.4 is that  the name of the device does not show up but is a random number.
 
-#To be continued
+First, we need to set up a XAMPP server
+
 
 ---
 
