@@ -41,7 +41,7 @@ Edit all the necessary config files for FTS (/opt/FTSconfig.yaml) and FTS-UI (/u
 
 ### Traccar server
 
-If you want to track iOS devices which as of writing this guide does not have iTAK publically available you need to use another GPS tracking app which you can inject into ATAK. In this case it is traccar.
+If you want to track iOS devices which as of writing this guide does not have iTAK publically available you need to use another GPS tracking app which you can inject into FreeTAKservers REST API. In this case it is traccar.
 
 Install unzip program and mysql-server
 
