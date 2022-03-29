@@ -10,6 +10,6 @@ There are multiple options on which OS you can use with ATAK and its servers, I 
 
 [Ubuntu 20.4](https://github.com/hamuraiisam/ATAK-Setup-guide/blob/main/Ubuntu.md "Ubuntu 20.4")
 
-[CentOS 7](https://github.com/hamuraiisam/ATAK-Setup-guide "CentOS 7")
+[CentOS 7](https://github.com/hamuraiisam/ATAK-Setup-guide/blob/main/centos.md "CentOS 7")
 
-[Windows 10 x64](https://github.com/hamuraiisam/ATAK-Setup-guide "Windows 10 x64")
+[Windows 10 x64](https://github.com/hamuraiisam/ATAK-Setup-guide/blob/main/windows.md "Windows 10 x64")
