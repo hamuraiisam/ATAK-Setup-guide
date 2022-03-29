@@ -2,7 +2,7 @@
 
 Here is the list of services I use on Ubuntu
 
-[Freetakserver](https://github.com/hamuraiisam/ATAK-Setup-guide "Freetakserver") - Open source server with advanced features like web-ui and rest API developed by the civtak community, one of the most popular servers for public use and updated frequently. Supports SSL ( secure ) and TCP connections.
+[Freetakserver](https://github.com/hamuraiisam/ATAK-Setup-guide/blob/main/Ubuntufts.md "Freetakserver") - Open source server with advanced features like web-ui and rest API developed by the civtak community, one of the most popular servers for public use and updated frequently. Supports SSL ( secure ) and TCP connections.
 
 [Taky](https://github.com/hamuraiisam/ATAK-Setup-guide "Taky") - A lightweight alternative to Freetakserver, also opensource but with not as much features and updated irregulary. Still a great alternative if you need a simple server with simple setup. Great for feeding in a lot of COT data into it, such as ADSB. Supports running multiple servers on a single VPS. Supports SSL ( secure ) and TCP connections.
 
