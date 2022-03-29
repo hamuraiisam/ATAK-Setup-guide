@@ -4,7 +4,7 @@ Here is the list of services I use on Ubuntu
 
 [Freetakserver](https://github.com/hamuraiisam/ATAK-Setup-guide/blob/main/ubuntufts.md "Freetakserver") - Open source server with advanced features like web-ui and rest API developed by the civtak community, one of the most popular servers for public use and updated frequently. Supports SSL ( secure ) and TCP connections.
 
-[Taky](https://github.com/hamuraiisam/ATAK-Setup-guide "Taky") - A lightweight alternative to Freetakserver, also opensource but with not as much features and updated irregulary. Still a great alternative if you need a simple server with simple setup. Great for feeding in a lot of COT data into it, such as ADSB. Supports running multiple servers on a single VPS. Supports SSL ( secure ) and TCP connections.
+[Taky](https://github.com/hamuraiisam/ATAK-Setup-guide/blob/main/ubuntutaky.md "Taky") - A lightweight alternative to Freetakserver, also opensource but with not as much features and updated irregulary. Still a great alternative if you need a simple server with simple setup. Great for feeding in a lot of COT data into it, such as ADSB. Supports running multiple servers on a single VPS. Supports SSL ( secure ) and TCP connections.
 
 [Traccar](https://github.com/hamuraiisam/ATAK-Setup-guide "Traccar") - External opensource gps tracking software not associated with ATAK, great for tracking iOS devices and then combining them with [Cale-Torinos TAKCAR](https://github.com/hamuraiisam/ATAK-Setup-guide "Cale-Torino's TAKCAR") php script to feed the data into freetakservers REST API.
 
