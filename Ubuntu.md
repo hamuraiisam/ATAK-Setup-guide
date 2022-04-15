@@ -9,3 +9,5 @@ Here is the list of services I use on Ubuntu
 [Traccar](https://github.com/hamuraiisam/ATAK-Setup-guide/blob/main/traccar.md "Traccar") - External opensource gps tracking software not associated with ATAK, great for tracking devices which dont have ATAK support and then combining them with [Cale-Torinos TAKCAR](https://github.com/hamuraiisam/ATAK-Setup-guide "Cale-Torino's TAKCAR") php script to feed the data into freetakservers REST API.
 
 [Mumble server](https://github.com/hamuraiisam/ATAK-Setup-guide/blob/main/ubuntumumble.md "Mumble server") - A voice communication server which can be combined with ATAK using [Hayts mumble PTT plugin](https://drive.google.com/drive/folders/1o8tsalgxUGxdg2HiDw5xVu_-bnr63F3d "Hayts mumble PTT plugin") The mumble server also comes packaged with freetakserver if you use zerotouch install.
+
+[Wireguard server](https://github.com/hamuraiisam/ATAK-Setup-guide/blob/main/ubuntuwireguard.md "Wireguard") - A VPN server used to establish a secure encrypted tunnel connection between clients and the servers.
